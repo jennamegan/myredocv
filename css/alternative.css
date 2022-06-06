@@ -1,4 +1,4 @@
-@import url(https://api.fontshare.com/css?f[]=telma@900&f[]=erode@1&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap');
 
 /* Starting with a CSS reset */
 
@@ -22,7 +22,7 @@ html {
 }
 
 body {
-	font-family: "Erode", serif;
+	font-family: "Roboto", serif;
 	background-color: #ffffff;
 	color: #000020;
 	font-size: clamp(16px, 1.5vw, 20px);
