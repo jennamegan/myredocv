@@ -171,7 +171,7 @@ h2 {
 	writing-mode: vertical-lr;
 	font-size: clamp(20px, 2.5vh, 36px);
 	font-weight: 900;
-	font-family:  Telma;
+	font-family:  Helvetica Neue;
 }
 
 .resume-main h2 {

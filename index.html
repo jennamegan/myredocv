@@ -1,11 +1,17 @@
 <!doctype html>
 <html class="h-100" lang="en">
-  
+
+   <!-- Links to the CSS styles from Bootstrap. -->
+    <!-- -->
+
+<body>
+    <!-- -->
+
   <!-- An HTML document always starts with a "head", i.e. information about the page that isn't directly visible -->
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+ 
     <!-- Links to the CSS styles from Bootstrap. -->
     <!-- -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -48,14 +54,14 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 rounded-circle my-3" src="foto.JPG" alt="Portrait of Firstname Lastname" width="160">
+          <img class="w-100 rounded-circle my-3" src="images/photo.jpg" alt="Portrait of Firstname Lastname" width="160">
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
-        <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
-          <h1 class="fw-bolder">Jenna Megan Claassens</h1>
-          <h5 class="fst-italic tagline">Second year Creative Business student</h5>
+        <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-4 header-content text-center">
+          <h1 class="fw-bolder" style="font-size:75px;">Jenna Megan Claassens</h1>
+          <h5 class="fst-italic tagline" style="font-size:30px;">Second year Creative Business student</h5>
         </div>
       </header>
 
@@ -74,8 +80,11 @@
           <!--
             <section> is yet another semantic element. The first one is for professional experience.
           -->
+          <section class="my-3 biography-section text-center">
+            <h1>Work Experience</h1>
+          </section>
           <section class="my-3 biography-section">
-            <h2>Work Experience</h2>
+
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
               "list-unstyled" is a class that hides the bullet points of a list.
@@ -129,8 +138,10 @@
 
           <!-- We're done with jobs, let's move on to schools -->
 
-          <section class="my-3 biography-section">
-            <h2>Education</h2>
+          <section class="my-3 biography-section text-center">
+            <h1>Education</h1>
+          </section>
+            <section class="my-3 biography-section">
             <ul class="biography-list list-unstyled">
 
               <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
